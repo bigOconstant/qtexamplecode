@@ -15,6 +15,7 @@ class PlusMinus : public QWidget {
   private slots:
     void OnPlus();
     void OnMinus();
+    void OnFour();
 
   private:
     QLabel *lbl;
