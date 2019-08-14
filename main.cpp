@@ -3,6 +3,7 @@
 #include <QPushButton>
 #include <iostream>
 #include "plusminus.h"
+#include "simplemenu.h"
 using namespace std;
 class MyButton : public QWidget {
     
@@ -24,7 +25,8 @@ int main(int argc, char *argv[]) {
     
   QApplication app(argc, argv);  
     
-  PlusMinus window;
+  //PlusMinus window;
+  SimpleMenu window;
 
   window.resize(300, 190);
   window.setWindowTitle("Plus minus");

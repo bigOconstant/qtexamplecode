@@ -17,7 +17,8 @@ find_package(Qt5 COMPONENTS Widgets REQUIRED)
  
   add_executable(helloworld
     plusminus.cpp
-  main.cpp
+    main.cpp
+    simplemenu.cpp
 
 )
 
